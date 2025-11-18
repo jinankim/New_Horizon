@@ -130,7 +130,7 @@ function OverviewSection() {
     <div className="grid gap-6 md:grid-cols-[1.2fr,1fr]">
       <Card>
         <SectionTitle
-          title="회사 정체성"
+          title="회사 개요"
           subtitle="Kraken Technologies는 유틸리티 산업 전반을 위한 올인원 스마트 운영 시스템(all-in-one smart operating system)을 제공하는 글로벌 기술 선도 기업입니다."
         />
         <ul className="space-y-2 text-sm text-slate-700 leading-relaxed">
