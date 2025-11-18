@@ -112,10 +112,10 @@ export default function VppWebPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white text-gray-800 p-8">
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-bold text-blue-700 mb-3">
-          가상 발전소(VPP) 심층 리포트
+          가상 발전소(VPP) 
         </h1>
         <p className="text-lg text-gray-600">
-          분산 에너지 자원을 통합하여 미래 전력망을 혁신하다
+          분산 에너지 자원을 통합하여 미래 전력망 혁신
         </p>
       </header>
 
