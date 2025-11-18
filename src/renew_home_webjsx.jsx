@@ -76,10 +76,10 @@ function TabsTrigger({ value, className, children, ...props }) {
       onClick={() => ctx.setValue(value)}
       className={cn(
         "px-3 py-2 text-xs md:text-sm rounded-full border transition",
+        className,
         active
           ? "bg-slate-900 text-white border-slate-900"
-          : "bg-white text-slate-500 border-slate-200 hover:border-slate-400",
-        className
+          : "bg-white text-slate-500 border-slate-200 hover:border-slate-400"
       )}
       {...props}
     >
@@ -161,37 +161,37 @@ export default function RenewHomePage() {
           <TabsList className="grid grid-cols-2 md:grid-cols-6 gap-2 bg-transparent p-0">
             <TabsTrigger
               value="overview"
-              className="rounded-full bg-white border text-xs md:text-sm"
+              className="rounded-full text-xs md:text-sm"
             >
               회사 개요
             </TabsTrigger>
             <TabsTrigger
               value="history"
-              className="rounded-full bg-white border text-xs md:text-sm"
+              className="rounded-full text-xs md:text-sm"
             >
               연혁
             </TabsTrigger>
             <TabsTrigger
               value="model"
-              className="rounded-full bg-white border text-xs md:text-sm"
+              className="rounded-full text-xs md:text-sm"
             >
               비즈니스 모델
             </TabsTrigger>
             <TabsTrigger
               value="strategy"
-              className="rounded-full bg-white border text-xs md:text-sm"
+              className="rounded-full text-xs md:text-sm"
             >
               성장 전략
             </TabsTrigger>
             <TabsTrigger
               value="collab"
-              className="rounded-full bg-white border text-xs md:text-sm"
+              className="rounded-full text-xs md:text-sm"
             >
               협업 사례
             </TabsTrigger>
             <TabsTrigger
               value="entry"
-              className="rounded-full bg-white border text-xs md:text-sm"
+              className="rounded-full text-xs md:text-sm"
             >
               진출 고려사항 &amp; SWOT
             </TabsTrigger>
@@ -367,25 +367,25 @@ export default function RenewHomePage() {
                   <TabsList className="flex flex-wrap gap-2 bg-transparent p-0">
                     <TabsTrigger
                       value="step1"
-                      className="rounded-full bg-white border text-xs md:text-sm"
+                      className="rounded-full text-xs md:text-sm"
                     >
                       ① 고객 참여
                     </TabsTrigger>
                     <TabsTrigger
                       value="step2"
-                      className="rounded-full bg-white border text-xs md:text-sm"
+                      className="rounded-full text-xs md:text-sm"
                     >
                       ② VPP 자원화
                     </TabsTrigger>
                     <TabsTrigger
                       value="step3"
-                      className="rounded-full bg-white border text-xs md:text-sm"
+                      className="rounded-full text-xs md:text-sm"
                     >
                       ③ 그리드 판매
                     </TabsTrigger>
                     <TabsTrigger
                       value="step4"
-                      className="rounded-full bg-white border text-xs md:text-sm"
+                      className="rounded-full text-xs md:text-sm"
                     >
                       ④ 수익 분배
                     </TabsTrigger>

@@ -91,7 +91,7 @@ const Feature = ({ icon: Icon, title, desc }) => (
 );
 
 export default function VppWebPage() {
-  const [tab, setTab] = React.useState("kr");
+  const [tab, setTab] = React.useState("usmix");
 
   const BizItem = ({ title, bullets }) => (
     <Card className="shadow-sm">
