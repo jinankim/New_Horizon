@@ -1,11 +1,12 @@
+// src/index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import ItronVisualPage from "./itron_visual_jsx_page";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ItronVisualPage />
+    <App />
   </React.StrictMode>
 );
