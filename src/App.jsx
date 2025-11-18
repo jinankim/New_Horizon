@@ -8,7 +8,7 @@ import KrakenOverviewPage from "./kraken_overview_page";
 import FluenceOverviewPage from "./fluence_overview_page"; // ✅ Fluence 추가
 
 export default function App() {
-  const [page, setPage] = useState("itron");
+  const [page, setPage] = useState("vpp");
 
   return (
     <div style={{ padding: "20px" }}>
