@@ -226,7 +226,7 @@ export default function VppWebPage() {
             <ResponsiveContainer width="100%" height={300}>
               <BarChart data={vppData}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
+                <XAxis dataKey="name" tick={{ fontSize: 11 }} />
                 <YAxis />
                 <Tooltip />
                 <Legend />
@@ -277,7 +277,7 @@ export default function VppWebPage() {
               {tab === "usmix" && (
                 <BarChart data={usVppData}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="name" />
+                  <XAxis dataKey="name" tick={{ fontSize: 11 }} />
                   <YAxis />
                   <Tooltip />
                   <Legend />
@@ -287,7 +287,7 @@ export default function VppWebPage() {
               {tab === "eumix" && (
                 <BarChart data={euVppData}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="name" />
+                  <XAxis dataKey="name" tick={{ fontSize: 11 }}/>
                   <YAxis />
                   <Tooltip />
                   <Legend />
@@ -297,7 +297,7 @@ export default function VppWebPage() {
               {tab === "aumix" && (
                 <BarChart data={auVppData}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="name" />
+                  <XAxis dataKey="name" tick={{ fontSize: 11 }}/>
                   <YAxis />
                   <Tooltip />
                   <Legend />
