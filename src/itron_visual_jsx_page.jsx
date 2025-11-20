@@ -33,7 +33,7 @@ export default function App() {
   };
 
   const navItems = [
-    { id: 'overview', label: '회사 개요', icon: LayoutGrid },
+    { id: 'overview', label: '회사개요', icon: LayoutGrid },
     { id: 'history', label: '연혁', icon: Activity },
     { id: 'business', label: '비즈니스 모델', icon: Zap },
     { id: 'growth', label: '성장 전략', icon: TrendingUp },
