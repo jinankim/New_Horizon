@@ -5,12 +5,9 @@ import {
   Users, 
   Zap, 
   Activity, 
-  Droplets, 
-  Shield, 
   Search,
   Lightbulb,
   LayoutGrid,
-  ArrowRight,
   Menu,
   X
 } from 'lucide-react';
@@ -328,7 +325,7 @@ function CollaborationTab() {
           category="수도 유틸리티"
           stat="누수 18% → 5%"
           desc="음향 누수 센서를 활용하여 무수수량(돈이 되지 않고 새는 물)을 획기적으로 감축"
-          img="https://images.unsplash.com/photo-1523538290311-a6e4baae4681?q=80&w=1000&auto=format&fit=crop"
+          img="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1000&auto=format&fit=crop"
         />
       </div>
     </div>
